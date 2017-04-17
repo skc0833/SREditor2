@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ECE29292-BBC4-4992-A712-A3501D3EF588}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SREditor2</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(MSBuildProjectDirectory);$(MSBuildProjectDirectory)\Foundation;D:\skc\work\SR\SREditor2\SREditor2\deps\3rdparty\freetype\include;D:\skc\work\SR\SREditor2\SREditor2\deps\3rdparty\freetype\include\freetype;$(IncludePath)</IncludePath>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(MSBuildProjectDirectory);$(MSBuildProjectDirectory)\Foundation;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Foundation\SRDictionary.inl" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+    <None Include="SREditor2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreGraphics\CGAffineTransform.h" />
+    <ClInclude Include="CoreGraphics\CGContext.h" />
+    <ClInclude Include="CoreGraphics\CGContextImpl.h" />
+    <ClInclude Include="CoreGraphics\CoreGraphics.h" />
+    <ClInclude Include="CoreText\CoreText.h" />
+    <ClInclude Include="CoreText\CTFrame.h" />
+    <ClInclude Include="CoreText\CTFramesetter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTLine.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTParagraphStyle.h" />
+    <ClInclude Include="CoreText\CTRun.h" />
+    <ClInclude Include="CoreText\CTRunDelegate.h" />
+    <ClInclude Include="CoreText\CTTypesetter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CoreText\RenderObject.h" />
+    <ClInclude Include="Foundation\SRAttributedString.h" />
+    <ClInclude Include="Foundation\SRBase.h" />
+    <ClInclude Include="Foundation\SRDataTypes.h" />
+    <ClInclude Include="Foundation\SRDocumentView.h" />
+    <ClInclude Include="Foundation\SRLayoutManager.h" />
+    <ClInclude Include="Foundation\SRTextBlock.h" />
+    <ClInclude Include="Foundation\SRTextContainer.h" />
+    <ClInclude Include="Foundation\SRTextStorage.h" />
+    <ClInclude Include="Foundation\SRColor.h" />
+    <ClInclude Include="Foundation\SRDebug.h" />
+    <ClInclude Include="Foundation\SRDictionary.h" />
+    <ClInclude Include="Foundation\SRLog.h" />
+    <ClInclude Include="Foundation\SRObject.h" />
+    <ClInclude Include="Foundation\SRRunArray.h" />
+    <ClInclude Include="Foundation\SRString.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SREditor2-inl.h" />
+    <ClInclude Include="SREditor2.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UIKit\UIEvent.h" />
+    <ClInclude Include="UIKit\UIFont.h" />
+    <ClInclude Include="UIKit\UIFontInfo.h" />
+    <ClInclude Include="UIKit\UILayoutConstraint.h" />
+    <ClInclude Include="UIKit\UIScrollView.h" />
+    <ClInclude Include="UIKit\UITextInput.h" />
+    <ClInclude Include="UIKit\UITextView.h" />
+    <ClInclude Include="UIKit\UIView.h" />
+    <ClInclude Include="UIKit\UIWindow.h" />
+    <ClInclude Include="UIKit\UIWindowImpl.h" />
+    <ClInclude Include="Win32\WIN32GraphicContextImpl.h" />
+    <ClInclude Include="Win32\WIN32FontInfo.h" />
+    <ClInclude Include="Win32\WIN32WindowImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreGraphics\CGAffineTransform.cc" />
+    <ClCompile Include="CoreGraphics\CGContext.cc" />
+    <ClCompile Include="CoreGraphics\CGContextImpl.cc" />
+    <ClCompile Include="CoreText\CTFrame.cc" />
+    <ClCompile Include="CoreText\CTFramesetter.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTLine.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTParagraphStyle.cc" />
+    <ClCompile Include="CoreText\CTRun.cc" />
+    <ClCompile Include="CoreText\CTRunDelegate.cc" />
+    <ClCompile Include="CoreText\CTTypesetter.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CoreText\RenderObject.cc" />
+    <ClCompile Include="Foundation\SRAttributedString.cc" />
+    <ClCompile Include="Foundation\SRDataTypes.cc" />
+    <ClCompile Include="Foundation\SRDictionary.cc" />
+    <ClCompile Include="Foundation\SRDocumentView.cc" />
+    <ClCompile Include="Foundation\SRLayoutManager.cc" />
+    <ClCompile Include="Foundation\SRTextBlock.cc" />
+    <ClCompile Include="Foundation\SRTextContainer.cc" />
+    <ClCompile Include="Foundation\SRTextStorage.cc" />
+    <ClCompile Include="Foundation\SRColor.cc" />
+    <ClCompile Include="Foundation\SRDebug.cc" />
+    <ClCompile Include="Foundation\SRLog.cc" />
+    <ClCompile Include="Foundation\SRObject.cc" />
+    <ClCompile Include="Foundation\SRRunArray.cc" />
+    <ClCompile Include="Foundation\SRString.cc" />
+    <ClCompile Include="SREditor2.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIFont.cc" />
+    <ClCompile Include="UIKit\UIFontInfo.cc" />
+    <ClCompile Include="UIKit\UIScrollView.cc" />
+    <ClCompile Include="UIKit\UITextInput.cc" />
+    <ClCompile Include="UIKit\UITextView.cc" />
+    <ClCompile Include="UIKit\UIView.cc" />
+    <ClCompile Include="UIKit\UIWindow.cc" />
+    <ClCompile Include="Win32\WIN32GraphicContextImpl.cc" />
+    <ClCompile Include="Win32\WIN32FontInfo.cc" />
+    <ClCompile Include="Win32\WIN32WindowImpl.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SREditor2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SREditor2.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

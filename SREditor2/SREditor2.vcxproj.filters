@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Foundation">
+      <UniqueIdentifier>{438b9d93-6e66-48de-bda4-24a53f35c3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreGraphics">
+      <UniqueIdentifier>{3f8d471f-aebe-4c89-9155-5d75c5489d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreText">
+      <UniqueIdentifier>{0f656f01-83aa-481b-8239-974d98191ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIKit">
+      <UniqueIdentifier>{d45531c8-abc6-4a69-b321-4f5ef513c519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{96676769-a3ce-4152-b17e-2f3e090d258b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="SREditor2.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Foundation\SRDictionary.inl">
+      <Filter>Foundation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SREditor2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRColor.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRDebug.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRDictionary.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRLog.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRObject.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRRunArray.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRString.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTFramesetter.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTLine.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTTypesetter.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRLayoutManager.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRTextContainer.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRTextStorage.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTRun.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGraphics\CGAffineTransform.h">
+      <Filter>CoreGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGraphics\CGContext.h">
+      <Filter>CoreGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGraphics\CoreGraphics.h">
+      <Filter>CoreGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CoreText.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIFont.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRBase.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRDataTypes.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTFrame.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTParagraphStyle.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRAttributedString.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGraphics\CGContextImpl.h">
+      <Filter>CoreGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\WIN32FontInfo.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIFontInfo.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIScrollView.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UITextView.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIView.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIWindow.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\RenderObject.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\WIN32WindowImpl.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIWindowImpl.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\WIN32GraphicContextImpl.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreText\CTRunDelegate.h">
+      <Filter>CoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRTextBlock.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SRDocumentView.h">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UILayoutConstraint.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UITextInput.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="UIKit\UIEvent.h">
+      <Filter>UIKit</Filter>
+    </ClInclude>
+    <ClInclude Include="SREditor2-inl.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SREditor2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRColor.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRDebug.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRLog.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRObject.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRRunArray.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRString.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTFramesetter.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTLine.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTTypesetter.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRLayoutManager.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRTextContainer.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRTextStorage.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTRun.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGraphics\CGAffineTransform.cc">
+      <Filter>CoreGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGraphics\CGContext.cc">
+      <Filter>CoreGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIFont.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTFrame.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTParagraphStyle.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRAttributedString.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGraphics\CGContextImpl.cc">
+      <Filter>CoreGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\WIN32FontInfo.cc">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIFontInfo.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIScrollView.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UITextView.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIView.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRDataTypes.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UIWindow.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\RenderObject.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\WIN32WindowImpl.cc">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\WIN32GraphicContextImpl.cc">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreText\CTRunDelegate.cc">
+      <Filter>CoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRTextBlock.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRDictionary.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SRDocumentView.cc">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="UIKit\UITextInput.cc">
+      <Filter>UIKit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SREditor2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
